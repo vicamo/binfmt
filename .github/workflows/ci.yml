@@ -256,6 +256,8 @@ jobs:
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v3
+        with:
+          image: ${{ env.REPO_SLUG }}:latest
       -
         name: Build ${{ matrix.target }}
         uses: docker/bake-action@v4

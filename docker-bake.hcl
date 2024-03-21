@@ -36,6 +36,41 @@ target "all-arch" {
     "linux/s390x",
     "linux/riscv64",
     "linux/386",
+    "linux/mips64",
+    "linux/mips64le",
+    "linux/loong64",
+
+    // Also in github.com/containerd/containerd/platforms/database
+    // "linux/amd64p32",
+    "linux/armbe",
+    "linux/arm64be",
+    "linux/ppc64",
+    "linux/mips",
+    "linux/mipsle",
+    "linux/mips64p32",
+    "linux/mips64p32le",
+    "linux/ppc",
+    "linux/riscv",
+    // "linux/s390",
+    "linux/sparc",
+    "linux/sparc64",
+    // "linux/wasm",
+
+    // Other architectures supported by QEMU
+    "linux/alpha",
+    "linux/sparc32plus",
+    "linux/m68k",
+    "linux/sh4",
+    "linux/sh4be",
+    "linux/hppa",
+    "linux/xtensa",
+    "linux/xtensabe",
+    "linux/microblaze",
+    "linux/microblazele",
+    "linux/or1k",
+    "linux/hexagon",
+    "linux/cris",
+    "linux/nios2",
   ]
 }
 
