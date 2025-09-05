@@ -284,7 +284,7 @@ jobs:
             *.output=type=image,"name=${{ env.REPO_SLUG }}",push-by-digest=true,name-canonical=true,push=${{ startsWith(github.ref, 'refs/heads/') }}
       -
         name: Export digest
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const fs = require('fs');
